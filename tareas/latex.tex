@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+
+% --- Página y tipografía ---
+\usepackage[letterpaper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % si compilas con pdfLaTeX
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% --- Imágenes y color ---
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% --- Control fino de espacios ---
+\usepackage{setspace}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\thispagestyle{empty}
+
+% ===== Encabezado con logos + texto =====
+\begin{minipage}[c]{0.18\textwidth}
+    \centering
+    % Cambia por tu logo izquierdo
+    \includegraphics[width=0.95\linewidth]{logo_usac.jpeg}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.60\textwidth}
+    \small
+    Universidad de San Carlos de Guatemala\\
+    Escuela de Ciencias Físicas y Matemáticas\\
+    Daniel Osberto López Ordóñez\\
+    Carnet: 202408536\\
+    Programación 1\\
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.18\textwidth}
+    \centering
+    % Cambia por tu logo derecho
+    \includegraphics[width=1.4\linewidth]{logo_ecfm.jpg}
+\end{minipage}
+
+\vspace{0.5cm}
+
+% Línea horizontal superior (gruesa)
+\noindent\rule{\textwidth}{1.2pt}
+
+\vspace{0.2cm}
+
+% ===== Título =====
+\begin{center}
+    {\Large\scshape Tarea 1}\\[0.3em]
+\end{center}
+
+\vspace{0.1cm}
+
+% Fecha
+\begin{center}
+    \small\scshape 6 de febrero de 2026
+\end{center}
+
+\vspace{0.2cm}
+
+% Línea horizontal inferior (gruesa)
+\noindent\rule{\textwidth}{1.2pt}
+
+\vspace{0.6cm}
+
+% ===== Caja de resumen =====
+\noindent
+
+    \parbox{\textwidth}{%
+        \vspace{0.6em}
+        \textbf{Desde joven me empece a interesar en la física, particularmente en la cuántica y sus leyes contra intuitivas. Al graduarme, aspiro a especializarme en el área cuántica obviamente y en especial a estudiar la energía negativa, que me intereso muchísimo cuando escuche hablar sobre los motores warp.
+Para poder investigar este campo, considero que la programación será una herramienta muy importante ya que las matemáticas se vuelven extremadamente complicadas, el código me permitirá resolver ecuaciones que serían imposibles de abordar a mano. Además, podría hacer simulaciones, donde podré visualizar procesos cuánticos y modelar escenarios teóricos con precisión.}\\[0.3em]
+        \small
+
+        \vspace{0.8em}
+        
+    }%
+
+\end{document}
+
+\end{document}
